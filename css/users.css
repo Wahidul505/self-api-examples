@@ -1,0 +1,15 @@
+#users-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  color: darkcyan;
+  gap: 20px;
+}
+#users-container img{
+  border-radius: 20px;
+}
+.user{
+  background-color: lightcoral;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
